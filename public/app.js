@@ -277,7 +277,7 @@ function data() {
   const selectTag = document.getElementById("economical");
   selectTag.addEventListener("change", function () {
     const value = this.value;
-    fetch(`http://127.0.0.1:8000/economy?year=${value}`, {
+    fetch(`https://ipl-dataset.herokuapp.com/economy?year=${value}`, {
       method: "GET",
     })
       .then((data) => data.json())
