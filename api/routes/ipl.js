@@ -9,20 +9,14 @@ const router = new Router();
 
 router.get("/", async (req, res) => {
   const { year } = req.query;
-
-  const matches = await csv().fromFile(MATCHES_FILE_PATH)
-  const deliveries = await csv().fromFile(DELIVERIES_FILE_PATH)
-  const finalResult = getTopEconomicalBowlers(
-    
-      deliveries,
-      matches,
-      year
-  )
+  // console.log(year);
+  const matches = await csv().fromFile(MATCHES_FILE_PATH);
+  const deliveries = await csv().fromFile(DELIVERIES_FILE_PATH);
+  const finalResult = getTopEconomicalBowlers(deliveries, matches, year);
 
   return res.json({
-    economical_bowler: finalResult    //
-  })
-
+    economical_bowler: finalResult, //
+  });
 });
 
 module.exports = router;
