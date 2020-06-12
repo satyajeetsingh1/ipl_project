@@ -1,14 +1,14 @@
 const express = require("express");
 const routes = require("./routes/ipl");
-const cores = require('cors')
+const cores = require("cors");
 
 // const
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 app = express();
 
-app.use(cores())
+app.use(cores());
 
 app.use("/economy", routes);
 
