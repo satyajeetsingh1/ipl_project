@@ -130,7 +130,6 @@ function economicalbowlers(economical_bowlers) {
       parseFloat(economical_bowlers[i].economy),
     ]);
   }
-
   Highcharts.chart("economicalbowlers", {
     chart: {
       type: "column",

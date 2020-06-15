@@ -41,7 +41,7 @@ function economicalbowlers(deliveries, matches, years) {
       //   console.log(result[bowlers].economy);
     }
   }
-  // console.log(finalarr);
+  finalarr.sort((a, b) => +a.economy - +b.economy);
   return finalarr;
 }
 

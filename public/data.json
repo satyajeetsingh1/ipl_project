@@ -154,6 +154,34 @@
     },
     "economical_bowlers": [
         {
+            "bowler": "TM Dilshan",
+            "economy": "3.00"
+        },
+        {
+            "bowler": "DJ Thornely",
+            "economy": "5.45"
+        },
+        {
+            "bowler": "BAW Mendis",
+            "economy": "6.00"
+        },
+        {
+            "bowler": "Sohail Tanvir",
+            "economy": "6.23"
+        },
+        {
+            "bowler": "RG Sharma",
+            "economy": "6.24"
+        },
+        {
+            "bowler": "DW Steyn",
+            "economy": "6.44"
+        },
+        {
+            "bowler": "IK Pathan",
+            "economy": "6.45"
+        },
+        {
             "bowler": "AB Dinda",
             "economy": "6.51"
         },
@@ -162,36 +190,8 @@
             "economy": "6.55"
         },
         {
-            "bowler": "IK Pathan",
-            "economy": "6.45"
-        },
-        {
             "bowler": "SM Pollock",
             "economy": "6.58"
-        },
-        {
-            "bowler": "Sohail Tanvir",
-            "economy": "6.23"
-        },
-        {
-            "bowler": "DW Steyn",
-            "economy": "6.44"
-        },
-        {
-            "bowler": "DJ Thornely",
-            "economy": "5.45"
-        },
-        {
-            "bowler": "TM Dilshan",
-            "economy": "3.00"
-        },
-        {
-            "bowler": "RG Sharma",
-            "economy": "6.24"
-        },
-        {
-            "bowler": "BAW Mendis",
-            "economy": "6.00"
         }
     ],
     "winningpervenue": {
